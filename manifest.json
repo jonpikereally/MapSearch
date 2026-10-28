@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Map Search",
+  "version": "1.0.0",
+  "description": "Highlight an address, right-click, and search it in Google Maps.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
